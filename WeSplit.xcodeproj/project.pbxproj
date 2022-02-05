@@ -11,6 +11,11 @@
 		816BEB1E27AD7C9C003E76AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BEB1D27AD7C9C003E76AD /* ContentView.swift */; };
 		816BEB2027AD7C9F003E76AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BEB1F27AD7C9F003E76AD /* Assets.xcassets */; };
 		816BEB2327AD7C9F003E76AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BEB2227AD7C9F003E76AD /* Preview Assets.xcassets */; };
+		816BEB2A27AD97A2003E76AD /* FormExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BEB2927AD97A2003E76AD /* FormExample.swift */; };
+		816BEB2C27AD9B05003E76AD /* NavigationBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BEB2B27AD9B05003E76AD /* NavigationBarExample.swift */; };
+		816BEB2E27AD9CEF003E76AD /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BEB2D27AD9CEF003E76AD /* StateExample.swift */; };
+		816BEB3127AD9E5F003E76AD /* BindingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BEB3027AD9E5F003E76AD /* BindingExample.swift */; };
+		816BEB3327AD9EDB003E76AD /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BEB3227AD9EDB003E76AD /* ForEachExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		816BEB1D27AD7C9C003E76AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		816BEB1F27AD7C9F003E76AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		816BEB2227AD7C9F003E76AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		816BEB2927AD97A2003E76AD /* FormExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample.swift; sourceTree = "<group>"; };
+		816BEB2B27AD9B05003E76AD /* NavigationBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExample.swift; sourceTree = "<group>"; };
+		816BEB2D27AD9CEF003E76AD /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		816BEB3027AD9E5F003E76AD /* BindingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExample.swift; sourceTree = "<group>"; };
+		816BEB3227AD9EDB003E76AD /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			children = (
 				816BEB1B27AD7C9C003E76AD /* WeSplitApp.swift */,
 				816BEB1D27AD7C9C003E76AD /* ContentView.swift */,
+				816BEB2F27AD9E2C003E76AD /* Explanations */,
 				816BEB1F27AD7C9F003E76AD /* Assets.xcassets */,
 				816BEB2127AD7C9F003E76AD /* Preview Content */,
 			);
@@ -65,6 +76,18 @@
 				816BEB2227AD7C9F003E76AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		816BEB2F27AD9E2C003E76AD /* Explanations */ = {
+			isa = PBXGroup;
+			children = (
+				816BEB2D27AD9CEF003E76AD /* StateExample.swift */,
+				816BEB2B27AD9B05003E76AD /* NavigationBarExample.swift */,
+				816BEB2927AD97A2003E76AD /* FormExample.swift */,
+				816BEB3027AD9E5F003E76AD /* BindingExample.swift */,
+				816BEB3227AD9EDB003E76AD /* ForEachExample.swift */,
+			);
+			path = Explanations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816BEB2E27AD9CEF003E76AD /* StateExample.swift in Sources */,
 				816BEB1E27AD7C9C003E76AD /* ContentView.swift in Sources */,
 				816BEB1C27AD7C9C003E76AD /* WeSplitApp.swift in Sources */,
+				816BEB2C27AD9B05003E76AD /* NavigationBarExample.swift in Sources */,
+				816BEB3327AD9EDB003E76AD /* ForEachExample.swift in Sources */,
+				816BEB3127AD9E5F003E76AD /* BindingExample.swift in Sources */,
+				816BEB2A27AD97A2003E76AD /* FormExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
